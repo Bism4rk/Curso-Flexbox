@@ -1,0 +1,53 @@
+@charset "UTF-8";
+
+div.different > h1{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid tomato;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px;
+    width: 200px;
+}
+
+
+h1{
+    text-align: center;
+    margin: 20px 0 0 0;
+    font-size: 1.25em;
+    font-weight: normal;
+}
+
+body{
+    font-family: monospace;
+    color:#333;
+}
+
+.item{
+    margin: 5px;
+    background-color: tomato;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    border: 1px solid #ccc;
+}
+
+/* Flex */
+
+.flex{
+    display: flex;
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+
+.flex-item-1{
+    flex: 1;
+}
