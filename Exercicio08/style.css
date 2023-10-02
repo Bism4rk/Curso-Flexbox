@@ -1,0 +1,55 @@
+@charset "UTF-8";
+
+body {
+	font-family: monospace;
+	color: #333;
+}
+
+div.different > h1{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid tomato;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px;
+    width: 200px;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+/* Flex Grow */
+
+.grow0{
+    flex-grow: 0;
+}
+
+.grow1{
+    flex-grow: 1;
+}
+
+.grow2{
+    flex-grow: 2;
+}
+
+/* Flex Container e Item*/
+
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #ccc;
+}
+
+.item{
+    margin: 5px;
+    background: tomato;
+    text-align: center;
+    font-size: 1.5em;
+}
