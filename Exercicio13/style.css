@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body {
+	font-family: monospace;
+	color: #333;
+}
+
+div.different > h1{
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid tomato;
+    font-size: 1.5em;
+    font-weight: bold;
+    padding: 20px;
+    width: 200px;
+}
+
+h1 {
+	text-align: center;
+	margin: 20px 0 0 0;
+	font-size: 1.25em;
+	font-weight: normal;
+}
+
+/* Flex Container, Item, e Column */
+
+.container{
+    max-width: 400px;
+    margin: 0 auto;
+    display: flex;
+    border: 1px solid #ccc;
+}
+
+.item{
+    flex: 1;
+    margin: 5px;
+    padding: 0 5px;
+    background: tomato;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.item:first-child{
+    padding-top: 20px;
+}
+
+.column{
+    flex-direction: column;
+}
+
+/* Align Items */
+
+.align-items{
+    align-items: flex-end;
+}
+
+/* Align Self */
+
+.flex-start{
+    align-self: flex-start;
+}
+
+.flex-end{
+    align-self: flex-end;
+}
+
+.center{
+    align-self: center;
+}
+
+.baseline{
+    align-self: baseline;
+}
+
+.stretch{
+    align-self: stretch;
+}
+
