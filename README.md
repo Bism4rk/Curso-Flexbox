@@ -3,4 +3,4 @@
 
  it's a flexbox course thing!!! wow!!!!!
 
- CONTINUE FROM VIDEO 5 LATER!
+ CONTINUE FROM 6:00 LATER!
